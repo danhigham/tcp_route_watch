@@ -36,7 +36,6 @@ func main() {
 
 	eventResponse, err := getRouteEvents(apiEndpoint, token)
 	if err != nil {
-		fmt.Print("ERROR!")
 		panic(err)
 	}
 
